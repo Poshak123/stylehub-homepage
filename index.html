@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Home Page </title>
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+height:100vh;
+background-color:#ffcccc;
+box-sizing:border-box;
+}
+
+
+.menu-bar{
+backgound-color: white;
+text-align: center;
+}
+
+.menu-bar ul{
+display: inline-flex;
+list-style:none;
+color:#fff;
+}
+
+.menu-bar ul li{
+width:120px;
+margin:15px;
+padding:15px;
+
+}
+
+.menu-bar ul li a{
+text-decoration:none;
+color: #fff;
+}
+ 
+.active, .menu-bar ul li:hover{
+background-color:black;
+border-radius:3px;
+}
+
+.search{
+background-color:white;
+text-align:left;
+border-width:180px;
+margin:10px;
+padding:10px;
+border-radius:3px;
+border-style:none;
+}
+
+.bar{
+background-color:black;
+text-align:center;
+width:100px;
+margin:10px;
+padding:10px;
+border-radius:3px;
+cursor:pointer;
+box-sizing:border-box;
+color:white;
+border-style:none;
+}
+
+.bar:hover{
+filter:transparent;
+transform:scale(1.03);
+}
+
+.login{
+background-color:black;
+text-align:center;
+width:100px;
+height:10px;
+margin:10px;
+padding:10px 20px 10px ;
+border-radius:3px;
+cursor:pointer;
+box-sizing:border-box;
+color:white;
+border-style:none;
+text-decoration:none;
+}
+s
+.login:hover{
+filter:transparent;
+transform:scale(1.03);
+}
+
+.row1{
+display: flex;
+justify-content:center;
+align-items:center;
+flex-wrap:wrap;
+}
+
+.row1 img{
+width:400px;
+height:400px;
+border: 2px solid #ff3d0036;
+box-shadow: 4px 7px 7px 0px #00000042;
+border-radius:25px;
+cursor:pointer;
+margin:10px;
+transition: 400ms;
+}
+
+.row1 img:hover{
+filter:transparent;
+transform:scale(1.03);
+}
+
+
+</style>
+</head>
+<body >
+<div class="menu-bar">
+<div class="first">
+<h1> STYLEHUB </h1>
+</div>
+<ul>
+<li class="active"><a href="#"> Men </a></li>
+<li><a href="#"> Women </a></li>
+<li><a href="#"> kids </a></li>
+<li><a href="#"> Accessories </a></li>
+</ul>
+<input type="text" class="search" placeholder="search"/>
+<button class="bar"> Search </button>
+<a href="loginpage.html" class="login">Login </a>
+
+<div class="row1">
+  <a href="men.html"><img src="men1.jpg" alt="Men" /></a>
+
+  <a href="WOMEN.HTML"><img src="women.jpg" alt="Women" /></a>
+
+ <a href="kids.html"> <img src="kid.jpg" alt="Kid"/></a>
+
+  <a href="watch.html"><img src="watch.jpeg" /></a>
+
+  <img src="bag.jpeg" alt="Bag" />
+
+  <a href="shoes.html"><img src="Shoes.jpeg" alt="Shoes" /></a>
+</div>
+
+
+</div>
+
+</body>
+</html>
